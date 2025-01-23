@@ -403,107 +403,124 @@ text-align: center;
      padding-top: 150px;
     }
     
-    @media screen and (max-width:576px){
-      .kinder-years{
-        display: flex;
-        flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
-        justify-content: center;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        
+   @media screen and (max-width:576px){
+   .nav-scl, .nav-bar{
+    display:none;
+   }
+   .nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+   }
+   .btn{
+    background: rgb(254, 163, 1);
+    border: none;
+    padding: 6px 16px 6px 16px;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 5px;
+  }
+  .main{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .main-head{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .main-paragraph{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .btn-2{
+   display: none;
+  }
+  .curriculum{
+    margin-top: 0px;
+  }
+  .curriculum-header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+  }
+  .kinder-years{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .icons{
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .our-head{
+    font-size: 48px;
+    text-align: center;
+    line-height: 48px;
+  }
+  .img-section{
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .main-img{
+    width: 100%;
+  }
+  .img-01{
+    width: 100%;
+  }
+  .color-sec{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .four-img{
+    flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .btn-kids{
+    display: none;
+  }
+  .color-sec{
+    background: none;
+  }
+ 
+  .story-head{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 0;
+  }
+  .story-para{
+    color: rgb(102, 102, 102);
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
       }
-    }
-    @media screen and (max-width:576px){
-      .curriculum-header{
-        color: rgb(0, 0, 0);
-        font-family: Quicksand;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 28px;
-        text-align: center;
-        margin-bottom: 0px;
-        margin-top: 0;
-      }
-    }
-    @media screen and (max-width:576px){
-      .our-head{
-        color: rgb(0, 0, 0);
-        font-family: Quicksand;
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 28px;
-        text-align: center;
-        margin-bottom: 0px;
-      }
-      }
-    @media screen and (max-width:576px){
-      .img-section{
-        margin-top: 20px;
-      }
-     
-      .main-img{
-        display: none;
-      }
-      .footer{
-        flex-direction: column;
-        grid-template-columns: repeat(1,1fr);
-        height: auto;
-        padding-left: 20px;
-        padding-bottom: 50px;
-      }
-      .footer-section{
-        height: auto;
-        padding-left: 15px;
-        
-      }
-      .btn-kids{
-        display: flex;
-        justify-content: center;
-      }
-      .nav-scl{
-        display: none;
-      }
-      .nav-bar{
-        display: none;
-      }
-      .btn{
-        display: none;
-      }
-      .main{
-        display: flex;
-        flex-direction: column;
-        flex-direction: column-reverse;
-      }
-      .main-image{
-        max-width: 550px;
-        margin: 0 auto;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
-      .main-head{
-        font-family: Quicksand;
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 42px;
-        text-align: center;
-        margin-bottom: 30px;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
-      .main-paragraph{
-        color: rgb(17, 17, 17);
-        font-family: Quicksand;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: center;
-        margin-bottom: 0px;
-        
-      }
-      .icons{
-        display: none;
-      }
-    }
+      
+  }
+   
