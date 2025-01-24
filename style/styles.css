@@ -461,9 +461,10 @@ border-radius: 5px;
   }
   .kinder-years{
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(1,1fr);
     margin-bottom: 50px;
+    align-items: center;
+   
   }
   .icons{
     align-items: center;
@@ -480,9 +481,7 @@ border-radius: 5px;
     flex-direction: column;
     margin-top: 0;
   }
-  .main-img{
-    width: 100%;
-  }
+ 
   .img-01{
     width: 100%;
   }
@@ -493,10 +492,10 @@ border-radius: 5px;
   .four-img{
     flex-direction: column;
     grid-template-columns: repeat(1,1fr);
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
+    justify-content: center;
+    align-self: center;
   }
+  
   .btn-kids{
     display: none;
   }
@@ -521,6 +520,25 @@ border-radius: 5px;
     line-height: 20px;
     text-align: left;
       }
-      
+   ..footer-section{
+    height: auto;
+   }
+   .footer{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer{
+    flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+   }
+   .footer-section{
+    height: auto;
+   }
+   .main-img{
+    display: none;
+   }
   }
    
