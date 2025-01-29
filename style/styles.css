@@ -407,6 +407,13 @@ text-align: center;
    .nav-scl, .nav-bar{
     display:none;
    }
+   .kids-images{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 80%;
+
+   }
    .nav{
     display: flex;
     justify-content: space-between;
@@ -540,5 +547,6 @@ border-radius: 5px;
    .main-img{
     display: none;
    }
+  
   }
    
